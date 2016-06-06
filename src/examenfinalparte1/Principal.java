@@ -2,21 +2,21 @@ package examenfinalparte1;
 
 public class Principal {
 
-    int i;
+    int valorfinal;
     
     /*
     * Este metodo mete en la variable i la suma de los dos numeros que se le pasan
     */
-    public Principal(int j, int m) {
-        i = suma(j, m);
+    public Principal(int numero1, int numero2) {
+        valorfinal = suma(numero1, numero2);
     }
     
     /*
     * Este metodo suma el numero que se le pasa consigo mismo y lo mete en i
     */
     
-    public Principal(int j) {
-        i = suma(j, j);
+    public Principal(int numero) {
+        valorfinal = suma(numero, numero);
     }
     
     /*
@@ -24,7 +24,7 @@ public class Principal {
     */
     
     public Principal() {
-        i = -1;
+        valorfinal = -1;
     }
 
     /*
