@@ -5,14 +5,17 @@ public class Principal {
     int valorfinal;
     
     /*
-    * Este metodo mete en la variable i la suma de los dos numeros que se le pasan
+    * Este metodo mete en la variable valorfinal la suma de los dos numeros que se le pasan
+    * @param numero1 El primer parametro que se introduce
+    * @param numero2 El segundo parametro que se introduce al metodo
     */
     public Principal(int numero1, int numero2) {
         valorfinal = suma(numero1, numero2);
     }
     
     /*
-    * Este metodo suma el numero que se le pasa consigo mismo y lo mete en i
+    * Este metodo suma el numero que se le pasa consigo mismo y lo mete en valorfinal
+    * @param numero El numero que se introduce al metodo
     */
     
     public Principal(int numero) {
@@ -20,7 +23,7 @@ public class Principal {
     }
     
     /*
-    * Este metodo coloca la variable i en -1
+    * Este metodo coloca la variable valorfinal en -1
     */
     
     public Principal() {

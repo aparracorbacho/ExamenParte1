@@ -10,6 +10,7 @@ public class Prin {
         * Renombramos el objeto para identificarlo
         */
         Principal objeto2var = new Principal(10, 20);
+        
         /*
         * Sacamos la variable valorfinal del objeto anteriormente creado para poder mostrarlo
         * Renombramos la variable a vmetodo2var que corresponde a Variable del Metodo que introduce 2 Variables
@@ -28,10 +29,19 @@ public class Prin {
         * Renombramos la variable a vmetodo1var que corresponde a Variable del Metodo que introduce 1 Variable
         */
         int vmetodo1var = objeto1var.valorfinal;
+        System.out.println("El resultado del metodo que introduce una variable es: " + vmetodo1var);
         
-        System.out.println("Es: " + vmetodo1var);
-        Principal mn = new Principal();
-        int nn = mn.valorfinal;
-        System.out.println("Es: " + nn);
+        /*
+        * Creamos un objeto de la clase principal sin parametro
+        * Renombramos el objeto para identificarlo
+        */
+        Principal objetosinvar = new Principal();
+        
+        /*
+        * Sacamos la variable valorfinal del objeto anteriormente creado para poder mostrarlo
+        * Renombramos la variable a vmetodosinvar que corresponde a Variable del Metodo no introduce variable
+        */
+        int vmetodosinvar = objetosinvar.valorfinal;
+        System.out.println("El resultado del metodo que no introduce ninguna variable es: " + vmetodosinvar);
     }
 }
