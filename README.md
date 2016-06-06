@@ -1,3 +1,6 @@
 # ExFinalParte1
 
-Refactoriza el código y añade Javadoc
+Codigo refactorizado con Javadoc
+
+Aaron Parra Corbacho
+NºAlumno: 5419
