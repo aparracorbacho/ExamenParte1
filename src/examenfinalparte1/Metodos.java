@@ -1,6 +1,6 @@
 package examenfinalparte1;
 
-public class Principal {
+public class Metodos {
 
     int valorfinal;
     
@@ -9,7 +9,7 @@ public class Principal {
     * @param numero1 El primer parametro que se introduce
     * @param numero2 El segundo parametro que se introduce al metodo
     */
-    public Principal(int numero1, int numero2) {
+    public Metodos(int numero1, int numero2) {
         valorfinal = suma(numero1, numero2);
     }
     
@@ -18,7 +18,7 @@ public class Principal {
     * @param numero El numero que se introduce al metodo
     */
     
-    public Principal(int numero) {
+    public Metodos(int numero) {
         valorfinal = suma(numero, numero);
     }
     
@@ -26,7 +26,7 @@ public class Principal {
     * Este metodo coloca la variable valorfinal en -1
     */
     
-    public Principal() {
+    public Metodos() {
         valorfinal = -1;
     }
 

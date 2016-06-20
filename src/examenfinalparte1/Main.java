@@ -2,14 +2,14 @@ package examenfinalparte1;
 
 import java.io.IOException;
 
-public class Prin {
+public class Main {
 
     public static void main(String[] args) throws IOException {
         /*
         * Creamos un objeto de la clase principal con dos parametros
         * Renombramos el objeto para identificarlo
         */
-        Principal objeto2var = new Principal(10, 20);
+        Metodos objeto2var = new Metodos(10, 20);
         
         /*
         * Sacamos la variable valorfinal del objeto anteriormente creado para poder mostrarlo
@@ -22,7 +22,7 @@ public class Prin {
         * Creamos un objeto de la clase principal con un parametro
         * Renombramos el objeto para identificarlo
         */
-        Principal objeto1var = new Principal(10);
+        Metodos objeto1var = new Metodos(10);
         
         /*
         * Sacamos la variable valorfinal del objeto anteriormente creado para poder mostrarlo
@@ -35,7 +35,7 @@ public class Prin {
         * Creamos un objeto de la clase principal sin parametro
         * Renombramos el objeto para identificarlo
         */
-        Principal objetosinvar = new Principal();
+        Metodos objetosinvar = new Metodos();
         
         /*
         * Sacamos la variable valorfinal del objeto anteriormente creado para poder mostrarlo
